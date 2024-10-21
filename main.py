@@ -1,6 +1,6 @@
 from aiogram import Bot, Dispatcher, types, executor
 
-bot = Bot('7295903060:AAF8xVRYoyRjzmdCA7xnIm1wV1jUmKE8C4Y')
+bot = Bot('')
 dp = Dispatcher(bot)
 
 @dp.message_handler(content_types=['photo'])
